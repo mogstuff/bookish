@@ -1,0 +1,34 @@
+
+This app contains an editable list of recommended books.
+
+Users can add, edit and delete books.
+
+The app contains the following components:
+
+Stores: 
+-------
+
+Books. 
+
+Models:
+-------
+Book. Each book has the following properties: title, author, synopsis
+
+Controllers:
+------------
+Books - manages the interaction between the views and the store
+
+Views:
+---------
+
+Main - information about the app (Carousel)
+
+Books List Container - Container for the List and Book Editor Views
+
+Books List - Nested List of Books (Nested List)
+
+Book Editor - Form to Add, Update, Remove Books
+
+
+
+
